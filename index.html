@@ -1,1 +1,212 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Santeri Tiilikainen</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+	
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+		  </button>
+		  <!-- <a class="navbar-brand" href="#">Santeri Tiilikainen</a> -->
+		</div>
+		<div>
+		  <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+			  <li><a href="#sectionHome">Home</a></li>
+			  <li><a href="#sectionAbout">About</a></li>
+			  <li><a href="#sectionSkills">Skills</a></li>
+			  <li><a href="#sectionEducation">Education</a></li>
+			  <li><a href="#sectionCareer">Career</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	
+	<div class="container-full">
+		
+		<!-- Home -->
+		<section id="sectionHome">
+			<header id="home">
+				<div id="homeContainer">
+					<h1>Santeri Tiilikainen</h1>
+					<center>
+						<img id="myface" src="cvkuva.jpg" class="img-circle" alt="Santeri Tiilikainen" width="200" height="200" />
+					</center>
+				</div>
+			</header>
+		</section>
+		
+		
+		
+		<!-- About me -->
+		<section id="sectionAbout">
+			<div class="container">
+				<header>
+					<h2>About me</h2>
+				</header>
+				<p>My story</p>
+				<h3 class="slide-toggle-button">Contact me</h3>
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>First name</th>
+								<th>Last name</th>
+								<th>Street address</th>
+								<th>Postal code</th>
+								<th>City</th>
+								<th>Email</th>
+								<th>Phone</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Santeri</td>
+								<td>Tiilikainen</td>
+								<td>Raatihuoneenkatu 5 A1</td>
+								<td>13100</td>
+								<td>Hämeenlinna</td>
+								<td>santtut@gmail.com</td>
+								<td>(+358) 400 847 287</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>		
+		
+		<!-- Skills -->
+		<section id="sectionSkills">
+			<div class="container">
+				<article>
+					<header>
+						<h2>My skills</h2>
+					</header>
+					
+					<!-- Skillbars -->
+					<div class="skillbar clearfix" data-percent="80%">
+						<div class="skillbar-title"><span>HTML/CSS</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">80%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title"><span>JavaScript</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title"><span>Bootstrap</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="60%">
+						<div class="skillbar-title"><span>JQuery</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">60%</div>
+					</div>
+
+					<div class="skillbar clearfix " data-percent="60%">
+						<div class="skillbar-title"><span>C#</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">60%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="60%">
+						<div class="skillbar-title"><span>Java</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">60%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="50%">
+						<div class="skillbar-title"><span>Python</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">50%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="40%">
+						<div class="skillbar-title"><span>Ruby</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">40%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="40%">
+						<div class="skillbar-title"><span>PHP</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">40%</div>
+					</div>
+					
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title"><span>MySQL</span></div>
+						<div class="skillbar-bar"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
+					
+					<p>View my full CV:</p>
+					<input class="myButton" type="button" value="CV (FIN)" onclick="window.open('CV_SanteriTiilikainen.pdf')"/>
+					<input class="myButton" type="button" value="CV (EN)" onclick="window.open('CV_English_SanteriTiilikainen.pdf')"/>
+				</article>
+			</div>
+		</section>
+		
+		<!-- Education -->
+		<section id="sectionEducation">
+			<div class="container">
+				<header>
+					<h2>Education</h2>
+				</header>
+				<p>
+				In 2009 I started studying a dual qualification in Tavastia Vocational College. <br />
+				In 2012 I graduated as a carpenter and an undergraduate. <br />
+				I spent a year in the Finnish defence forces from summer of 2012 to 2013 where I got a lot of
+				valuable experience as an leader of an armoured personnel carrier. <br />
+				Immediatly after that I started studying in Häme University of Applied Sciences. <br />
+				I still have to carry out my internship period and find an interesting thesis topic to do
+				before I can graduate. <br /> 
+				Maybe You have something to offer?
+				</p>
+			</div>
+		</section>
+		
+		<!-- Career -->
+		<section id="sectionCareer">
+			<div class="container">
+				<header>
+					<h2>Career</h2>
+				</header>
+				<p>My career</p>
+			</div>
+		</section>
+
+	</div>
+	
+	<!-- Footer -->
+	<footer class="footer">	
+		<div class="container">
+		<p>&copy 2016 Santeri Tiilikainen</p>
+		</div>
+	</footer>
+	
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+	<script src="jquery.bootstrap-autohidingnavbar.js"></script>
+
+	
+</body>
+</html>
